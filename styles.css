@@ -3,8 +3,13 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.assignment {
+.assignments {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.assignment {
+  width: 21%;
   padding: 10px;
   margin: 10px;
   background: #05a096;
@@ -14,11 +19,18 @@ body {
 .assignment img {
   width: 400px;
   margin: 10px;
+  padding: 20px 10px;
   border: 3px solid #ce0241;
+  display: block;
+  margin: auto;
 }
 
 h1 {
   color: #106252;
+  text-align: center;
+}
+
+h2 {
   text-align: center;
 }
 
